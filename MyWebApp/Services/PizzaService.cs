@@ -1,6 +1,6 @@
-using RazorPagesPizza.Models;
+using MyWebApp.Models;
 
-namespace RazorPagesPizza.Services;
+namespace MyWebApp.Services;
 public static class PizzaService
 {
     static List<Pizza> Pizzas { get; }
@@ -41,4 +41,4 @@ public static class PizzaService
 
         Pizzas[index] = pizza;
     }
-                }
+}

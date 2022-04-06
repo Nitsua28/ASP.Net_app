@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace RazorPagesPizza.Models;
+namespace MyWebApp.Models;
 
 public class Pizza
 {
